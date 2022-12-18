@@ -1,0 +1,93 @@
+header .introducao{
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(155, 0, 0);
+    padding: 20px;
+    background-color: #523365;
+    color: #48cee6;
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: .9rem;
+}
+
+h5 {
+    margin-top: 10px;
+    font-size: .8rem;
+}
+
+a {
+    text-decoration: none;
+    color: #aaddee
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #230121;
+    width: 100%;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.nav-bar li {
+    padding: 10px;
+    transition: .3s;
+}
+
+.nav-bar li:hover {
+    background-color: #333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row aside {
+    flex: 30%;
+    background-color: #623266;
+    padding: 30px;
+}
+
+main {
+    flex: 70%;
+    background-color: #ad56dd;
+    padding: 20px;
+}
+
+.faking {
+    background-color: #ffaaff;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #110011;
+    color: #aaffff;
+}
+
+@media (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
